@@ -12,3 +12,7 @@ func main() {
 	}
 
 }
+
+func test() {
+
+}

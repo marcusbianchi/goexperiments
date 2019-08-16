@@ -47,6 +47,7 @@ func main() {
 	if year == 2019 {
 		fmt.Println("Current year")
 	}
+	fmt.Println("---")
 
 	//Exercise 7
 	if year < 2000 {
@@ -54,6 +55,7 @@ func main() {
 	} else {
 		fmt.Println("Current century")
 	}
+	fmt.Println("---")
 
 	//Exercise 8
 	switch {
@@ -62,6 +64,7 @@ func main() {
 	default:
 		fmt.Println("Other year")
 	}
+	fmt.Println("---")
 
 	//Exercise 9
 	favSport := "kenjutsu"
@@ -71,6 +74,7 @@ func main() {
 	default:
 		fmt.Println("Other sport")
 	}
+	fmt.Println("---")
 
 	//Exercise 10
 	fmt.Println(true && true)
@@ -78,5 +82,4 @@ func main() {
 	fmt.Println(true || true)
 	fmt.Println(true || false)
 	fmt.Println(!true)
-
 }

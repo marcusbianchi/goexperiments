@@ -66,6 +66,34 @@ func main() {
 	func(s string) {
 		fmt.Println(s)
 	}("We are anonimous")
+	fmt.Println("---")
+
+	//Exercise 7
+	fn := func(s string) {
+		fmt.Println(s)
+	}
+	fn("New Annonimous")
+	fmt.Println("---")
+	//Exercises 8
+	returnfn := returnfunc()
+
+	fmt.Println("Callback", returnfn())
+	fmt.Println("---")
+
+	//Exercise 9
+	fn2 := func(i int) {
+		fmt.Println("callback", i)
+	}
+	receivefn(fn2, 1894)
+	fmt.Println("---")
+
+	//Exercise 10
+	cl := closure()
+
+	cl(2)
+	cl(10)
+	fmt.Println("---")
+
 }
 
 //Exercise 1
@@ -109,4 +137,25 @@ func (s square) area() float64 {
 
 func info(s shape) {
 	fmt.Println("The Area is:", s.area())
+}
+
+//Exercise 8
+func returnfunc() func() int {
+	return func() int {
+		return 42
+	}
+}
+
+//Exercise 9
+func receivefn(fn func(i int), i int) {
+	fn(i)
+}
+
+//Exercise 10
+func closure() func(i int) {
+	x := 0
+	return func(i int) {
+		x += i
+		fmt.Println("New x", x)
+	}
 }

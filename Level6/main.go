@@ -154,6 +154,7 @@ func receivefn(fn func(i int), i int) {
 //Exercise 10
 func closure() func(i int) {
 	x := 0
+	fmt.Println("Original x", x)
 	return func(i int) {
 		x += i
 		fmt.Println("New x", x)

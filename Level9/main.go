@@ -104,7 +104,7 @@ func main() {
 
 	//Exercise 6
 	fmt.Println("OS", runtime.GOOS)
-	fmt.Println("OS", runtime.GOARCH)
+	fmt.Println("ARCH", runtime.GOARCH)
 }
 
 //Exercise 2

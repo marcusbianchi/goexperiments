@@ -63,7 +63,6 @@ func main() {
 		log.Println(err)
 	}
 	fmt.Println("---")
-
 }
 
 //Exercise 2

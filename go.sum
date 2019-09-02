@@ -1,3 +1,5 @@
+github.com/GoesToEleven/go-programming v0.0.0-20181228215051-5519dbb87bc5 h1:WKpGS7hJdUWc4YHjvTY96oic8W7Bd6j4zYqAPeyf9N8=
+github.com/GoesToEleven/go-programming v0.0.0-20181228215051-5519dbb87bc5/go.mod h1:LldzOPaKdMOUfSPvqxm1wFrOU8CE1XhRhWn+tbMPe+w=
 golang.org/x/text v0.0.0-20170915032832-14c0d48ead0c h1:qgOY6WgZOaTkIIMiVjBQcw93ERBE4m30iBm00nkL0i8=
 golang.org/x/text v0.0.0-20170915032832-14c0d48ead0c/go.mod h1:NqM8EUOU14njkJ3fqMW+pc6Ldnwhi/IjpwHt7yyuwOQ=
 golang.org/x/text v0.3.2 h1:tW2bmiBqwgJj/UpqtC8EpXEZVYOwU0yG4iWbprSVAcs=
